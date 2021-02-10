@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>COVID-19 INFO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image:url("wearmask.jpg");
+  background-color:#cccccc;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #000000;
+  width: 100%;
+  padding: 20px;
+}
+.img0{
+  padding:30px;
+  background-image:url("motive.jpg");
+}
+.img1{
+  padding:30px;
+  text-align: center;
+  background-color:#FFDAB9;	
+}
+.img2 {
+  padding:30px;
+  text-align: center;
+  background-image:url("");
+  background-color:#FFDAB9;	
+}
+.img3 {
+  padding:30px;
+  text-align: center;
+  background-image:url("");
+  background-color:#FFDAB9;	
+}
+.img4 {
+  padding:200px;
+  background-image:url("img4.jpg");
+  background-color:#cccccc;	
+}
+.img5 {
+  padding:200px;
+  background-image:url("img5.jpg");
+  background-color:#cccccc;	
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Covid-19 Information</h1>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="video.html">Video</a>
+  <a href="contact.html">Contact</a>
+  <a href="signup.html" class="right">Sign Up</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>IMPORTANT MESSAGE !</h2>
+    <h5>Always Follow the SOP</h5>
+    <div class="img0" style="height:200px;"></div>
+    <h3>Motivational Quote</h3>
+    <p>#KITAJAGAKITA</p>
+    <div class="img1" style="height:50px;">WEAR A MASK EVERYWHERE YOU GO</div><br>
+    <div class="img2" style="height:50px;">STAY AT HOME</div><br>
+    <div class="img3" style="height:50px;">WASH YOUR HAND FREQUENTLY</div>
+  </div>
+  <div class="main">
+    <h2>CORONA VIRUS HISTORY</h2>
+    <h5>History and recent advances in coronavirus discovery, Dec 12, 2020</h5>
+    <div class="img4" style="height:200px;"></div>
+    <p>Human coronaviruses, first characterized in the 1960s, are responsible for a substantial proportion of upper respiratory tract infections in children. Since 2003, at least 5 new human coronaviruses have been identified, including the severe acute respiratory syndrome coronavirus, which caused significant morbidity and mortality. NL63, representing a group of newly identified group I coronaviruses that includes NL and the New Haven coronavirus, has been identified worldwide. These viruses are associated with both upper and lower respiratory tract disease and are likely common human pathogens. The global distribution of a newly identified group II coronavirus, HKU1, has not yet been established. Coronavirology has advanced significantly in the past few years. The SARS epidemic put the animal coronaviruses in the spotlight. The background and history relative to this important and expanding research area are reviewed here.</p>
+    <br>
+    <h2>Which country was the first case of the coronavirus disease identified?</h2>
+    <h5>Wuhan,China Nov 11, 2020</h5>
+    <div class="img5" style="height:200px;"></div>
+    <p>On December 31, 2019, the World Health Organisation’s (WHO) China office heard the first reports of a previously-unknown virus behind a number of pneumonia cases in Wuhan, a city in Eastern China with a population of over 11 million.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>@All Right Reserved</h2>
+</div>
+
+</body>
+</html>
